@@ -34,7 +34,7 @@ public int hamming()   {
 			if(meaning+1!=blocks[i][u]&&blocks[i][u]!=0) {
 				hamm++;
 			}
-			meaning++;
+			meaning+=12;
 		}
 	}
 	
